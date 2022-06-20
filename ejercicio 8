@@ -1,0 +1,11 @@
+Algoritmo positivo_negativo
+	definir num como entero
+	escribir "ingrese un numero"
+	leer num 
+	Si num>0 Entonces
+		escribir "su numero es positivo"
+	SiNo
+		Escribir "su numero es negativo"
+	Fin Si
+	
+FinAlgoritmo
