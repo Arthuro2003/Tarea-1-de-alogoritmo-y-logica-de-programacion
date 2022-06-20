@@ -1,0 +1,10 @@
+Algoritmo par_impar
+	definir num1 como real 
+	escribir "ingrese un numero"
+	leer num1
+	Si num1 % 2 =0 Entonces
+		Escribir "el numero ingresado es par"
+	SiNo
+		Escribir "el numero ingresado es impar"
+	Fin Si
+FinAlgoritmo
