@@ -1,0 +1,22 @@
+Algoritmo paridad 
+	definir numbinario1 Como Entero
+	definir numbinario2 Como Entero
+	definir numbinario3 como entero 
+	definir numbinario4 como entero
+	definir pari como real 
+	escribir "ingrese el primer digito del numero binario" 
+	leer numbinario1
+	escribir "ingrese el segundo digito  del numero bianario"
+	leer numbinario2
+	escribir "ingrese el tercer digito del numero binario"
+	leer numbinario3 
+	escribir "ingrese el cuarto digito del numero binario" 
+	leer numbinario4
+	pari=numbinario1 + numbinario2 + numbinario3 + numbinario4
+	pari= pari % 2
+	Si pari=0 Entonces
+		escribir "el numero binario es par"
+	SiNo
+		escribir "el numero binario es impar"
+	Fin Si
+FinAlgoritmo
