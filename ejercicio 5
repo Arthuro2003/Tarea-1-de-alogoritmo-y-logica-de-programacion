@@ -1,0 +1,14 @@
+Algoritmo de_la_resolvente
+	definir a,b,c como reales
+	definir res1,res2 como reales
+	escribir "ingrese un digito" 
+	leer a
+	escribir "ingrese un digito"
+	leer b
+	escribir "ingrese un digito"
+	leer c
+	res1= (-b + raiz((b^2) - (4*a*c) ) ) / 2*a
+	escribir "x1=" ,res1
+	res2= (-b - raiz((b^2) - (4*a*c) ) ) / 2*a
+	escribir "x2=" ,res2
+FinAlgoritmo
