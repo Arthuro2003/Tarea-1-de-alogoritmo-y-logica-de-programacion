@@ -1,0 +1,19 @@
+Algoritmo binario_a_decimal
+	Definir x,n,decimal Como Entero
+	Definir binario Como Caracter
+	Escribir "Ingresa un numero en binario"
+	leer n
+	binario = ConvertirATexto(n)
+	n = Longitud(binario)
+	x = 0
+	decimal = 0
+	n = n-1
+	Mientras n >= 0 Hacer  
+		si Subcadena(binario,n,n) == "1" Entonces
+			decimal = decimal + 2^x
+		FinSi
+		n = n - 1
+		x = x + 1
+	FinMientras
+	Escribir "El numero en decimal es: ",decimal
+FinAlgoritmo
