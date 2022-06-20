@@ -1,0 +1,10 @@
+algoritmo hipotenusa
+	definir L1,L2,hipo como reales  
+	escribir "ingrese la adyacente"
+	Leer L1
+	escribir "ingrese la opuesta"
+	Leer L2
+	hipo= L1^2+L2^2
+	escribir"la hipotenusa es:" , hipo
+	
+FinAlgoritmo
