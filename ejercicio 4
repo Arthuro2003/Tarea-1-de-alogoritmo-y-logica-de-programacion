@@ -1,0 +1,18 @@
+Algoritmo operaciones 
+	definir num1,num2 como real 
+	definir sum,res,mul,div,modu como real 
+	escribir "ingrese primer numero"
+	leer num1 
+	escribir "ingrese sengudo numero"
+	leer num2
+	sum=num1+num2 
+	Escribir "el resultado de la suma es:" ,sum 
+	res=num1-num2
+	escribir "el resultado de la resta es:" ,res
+	mul=num1*num2
+	escribir "el resultado de la multiplicacion es:" ,mul
+	div=num1/num2
+	escribir "el resulado de la division es:" ,div
+	modu=num1 mod num2 
+	escribir "el resultado del modulo es:" ,modu
+FinAlgoritmo
