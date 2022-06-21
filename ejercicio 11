@@ -1,0 +1,15 @@
+Algoritmo de_unidades
+	definir uni,dece,cen,umil Como entero
+	num=1234
+	uni=num mod 10
+	num=trunc(num / 10)
+	dece=num mod 10
+	num=trunc(num / 10)
+	cen=num mod 10
+	num=trunc(num / 10)
+	umil=num mod 10 
+	escribir "la unidad de 1234 es:" ,uni
+	escribir "la decena de 1234 es:" ,dece
+	escribir "la centenea de 1234 es:" ,cen
+	escribir "la unidad de mil de 1234 es:" ,umil
+FinAlgoritmo
