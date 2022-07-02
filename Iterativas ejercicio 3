@@ -1,0 +1,19 @@
+Algoritmo numero_primo
+	//	definir variable
+	definir a,num,cont como entero 
+	num=0;cont=0;a=1
+	//	entrada 
+	Escribir "ingrese un numero entero"
+	leer num
+	Mientras a<=num Hacer
+		si num mod a=0 Entonces
+			cont=cont+1
+		FinSi
+		a=a+1
+	Fin Mientras
+	si cont=2 Entonces
+		Escribir "el numero ", num, " es primo"
+	sino 
+		Escribir "el numero ", num, " no es primo"
+	FinSi
+FinAlgoritmo
