@@ -1,0 +1,15 @@
+Algoritmo nueva_contraseña
+	// definimos variables 
+	Definir pin Como Entero
+	pin <- 0
+	// entrada 
+	Escribir 'ingrese pin de 10 digitos '
+	Leer pin
+	Mientras pin<=1000000000 Hacer
+		Escribir '***debe ingresar al menos 10 digitos***'
+		Escribir ''
+		Escribir 'ingrese pin de 10 digitos'
+		Leer pin
+	FinMientras
+	Escribir 'pin ingresado exitosamente '
+FinAlgoritmo
