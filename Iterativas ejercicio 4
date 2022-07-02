@@ -1,0 +1,17 @@
+Algoritmo factorial
+	// definimos variables 
+	Definir num1,num2,fac Como Entero
+	num1 <- 0; num2 <- 1; fac <- 1
+	// entrada 
+	Escribir 'ingresa un numero entero'
+	Leer num1
+	Si num1>=0 Entonces
+		Mientras num2<=num1 Hacer
+			fac <- fac*num2
+			num2 <- num2+1
+		FinMientras
+		Escribir 'el factorial de ',num1,' es: ',fac
+	SiNo
+		Escribir 'error al ingresar numero entero'
+	FinSi
+FinAlgoritmo
