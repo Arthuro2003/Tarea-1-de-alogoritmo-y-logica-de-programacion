@@ -1,0 +1,21 @@
+Algoritmo mayor_y_menor_de_n_numero
+	// definimos variable
+	Definir n,max,min,cont,tt Como Entero
+	n <- 0; max <- 0; min <- 999999; cont <- 0; tt <- 0
+	// entrada 
+	Escribir 'ingrese la cantidad de digitos del numero'
+	Leer tt
+	Mientras cont<tt Hacer
+		Escribir 'ingrese el numero'
+		Leer n
+		Si n>max Entonces
+			max <- n
+		FinSi
+		Si n<>0 Entonces
+			min <- n
+		FinSi
+		cont=cont+1
+	FinMientras
+	Escribir 'el numero mayor es: ',max
+	Escribir 'el numero menor es: ',min
+FinAlgoritmo
