@@ -1,0 +1,17 @@
+Algoritmo promedio
+	// definir variables 
+	Definir a Como Entero
+	Definir n,num,sum Como Real
+	a <- 1; n <- 0; num <- 0; sum <- 0
+	// entrada 
+	Escribir 'ingrese cantidad de digitos del numero'
+	Leer n
+	// proceso 
+	Mientras a<=n Hacer
+		Escribir 'ingrese el numero a promediar ',a
+		Leer num
+		sum <- sum+num
+		a <- a+1
+	FinMientras
+	Escribir 'el promedio es: ',sum/n
+FinAlgoritmo
