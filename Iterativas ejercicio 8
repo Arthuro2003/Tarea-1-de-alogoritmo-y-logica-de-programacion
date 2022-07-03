@@ -1,0 +1,15 @@
+Algoritmo tabla_multiplicar
+//	definimos variable
+	definir a,resp,b como entero 
+	a=0;resp=0;b=0
+	//	entrada 
+	Escribir "ingrese numero de tabla de multiplicar"
+	leer a
+	b=1
+	//	proceso 
+	mientras b<=10 hacer 
+		resp=a*b
+		Escribir a," x ",b," = ",resp
+		b=b+1
+	FinMientras
+FinAlgoritmo
