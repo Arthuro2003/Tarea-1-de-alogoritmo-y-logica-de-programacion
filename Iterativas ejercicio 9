@@ -1,0 +1,10 @@
+Algoritmo fichas_domino
+	// definimos variables 
+	Definir a,b Como Real
+	a <- 0; b <- 0
+	Para a<-0 Hasta 6 Hacer
+		Para b<-0 Hasta a Hacer
+			Escribir '|',a,'|',b
+		FinPara
+	FinPara
+FinAlgoritmo
