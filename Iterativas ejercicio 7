@@ -1,0 +1,47 @@
+Algoritmo edad_peso_estatura
+	Definir a,b,c,d,e,f,g,h,i,j,k Como Entero
+	Definir x,x1,x2 Como Entero
+	Escribir 'Ingrese la cantidad de datos:'
+	Leer a
+	i <- 0
+	c <- 0
+	e <- 0
+	f <- 0
+	x <- 0
+	x1 <- 0
+	x2 <- 0
+	Mientras i<=a Hacer
+		Escribir 'Ingrese la serie de datos por ejemplo: 19 70 182'
+		Escribir 'En el siguiente orden edad, peso(cantidad entera), estatura (cantidad entera)'
+		Leer b
+		Leer d
+		Leer k
+		c <- c+b
+		e <- e+d
+		f <- f+k
+		Si b>=18 Entonces
+			Si b<=25 Entonces
+				x <- x+1
+			SiNo
+				Si b>36 Entonces
+					x1 <- x1+1
+				FinSi
+			FinSi
+		FinSi
+		Si b>=18 Entonces
+			Si b<=35 Entonces
+				x2 <- x2+d
+			FinSi
+		FinSi
+		i <- i+1
+	FinMientras
+	j <- c/a
+	g <- e/a
+	h <- f/a
+	Escribir 'La edad promedia de las personas de la muestra es: ',j
+	Escribir 'El peso promediO de las personas de la muestra es: ',g
+	Escribir 'La estatura promedio de las personas de la muestra es: ',h
+	Escribir 'La cantidad de personas con entre los 18 y 25 años son: ',x
+	Escribir 'La cantidad de personas mayores a los 36 años son: ',x1
+	Escribir 'El peso promediO de las personas entre 18 y 35 años es: ',x2
+FinAlgoritmo
