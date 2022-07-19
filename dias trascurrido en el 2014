@@ -1,0 +1,61 @@
+Algoritmo dia_transcurrido_del_2014
+	// definimos varariable
+	Definir dia,mes,tiempo Como Entero
+	Definir ene,feb,mar,abr,may,jun,jul,ago,sep,oct,nov,dic Como Entero
+	dia <- 0; mes <- 0; ene <- 31; feb <- 28; mar <- 31; abr <- 30; may <- 31; jun <- 30; jul <- 31; ago <- 31; sep <- 30; oct <- 31; nov <- 30
+	// entrada 
+	Escribir 'ingrese el dia'
+	Leer dia
+	Escribir 'ingrese el mes'
+	Leer mes
+	// proceso 
+	Si mes=1 Entonces
+		mes <- 0
+	SiNo
+		Si mes=2 Entonces
+			mes <- ene
+		SiNo
+			Si mes=3 Entonces
+				mes <- ene+feb
+			SiNo
+				Si mes=4 Entonces
+					mes <- ene+feb+mar
+				SiNo
+					Si mes=5 Entonces
+						mes <- ene+feb+mar+abr
+					SiNo
+						Si mes=6 Entonces
+							mes <- ene+feb+mar+abr+may
+						SiNo
+							Si mes=7 Entonces
+								mes <- ene+feb+mar+abr+may+jun
+							SiNo
+								Si mes=8 Entonces
+									mes <- ene+feb+mar+abr+may+jun+jul
+								SiNo
+									Si mes=9 Entonces
+										mes <- ene+feb+mar+abr+may+jun+jul+ago
+									SiNo
+										Si mes=10 Entonces
+											mes <- ene+feb+mar+abr+may+jun+jul+ago+sep
+										SiNo
+											Si mes=11 Entonces
+												mes <- ene+feb+mar+abr+may+jun+jul+ago+sep+oct
+											SiNo
+												Si mes=12 Entonces
+													mes <- ene+feb+mar+abr+may+jun+jul+ago+sep+oct+nov
+												FinSi
+											FinSi
+										FinSi
+									FinSi
+								FinSi
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+	tiempo <- mes+dia
+	Escribir tiempo
+FinAlgoritmo
